@@ -9,9 +9,9 @@ public class HashMapTable {
 	public static void main(String[] args) {
 		
 		Map<String,String> phoneBook =new HashMap<>();
-		phoneBook.put("Deepak", "240-907-0084");
+		phoneBook.put("Deepak", "240-907-4444");
 		phoneBook.put("Anil", "713-252-1907");
-		phoneBook.put("Rahul", "914-654-7785");
+		phoneBook.put("Rahul", "914-654-5555");
 		
 		Set<String> sPhone=phoneBook.keySet();
 		for(String s:sPhone) {
